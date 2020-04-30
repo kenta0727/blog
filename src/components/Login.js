@@ -2,7 +2,7 @@ import React from 'react'
 
 class login extends React.Component { 
   render() {
-    //login or 登録された後にBlogにアクセスできるようにする処理
+    //login　or 登録された後にBlogにアクセスできるようにする処理
     return (
       <form action="/Blog">
         <table>
