@@ -71,7 +71,7 @@ const App = () => {
           <Route path="/" exact component={HOME} />
           <Route path="/registration" component={registration_click} />
           <Route path="/login" component={Login_click} />
-          <Route path="/Blog_display"  component={Blog_login} />
+          <Route path="/Blog_display" component={Blog_login} />
         </div>
       </BrowserRouter>
     </div>
