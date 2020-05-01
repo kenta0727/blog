@@ -26,7 +26,6 @@ class Registration extends React.Component {
               </tr>
           </tbody>
         </table>
-        
       </form>
     </div>
 
