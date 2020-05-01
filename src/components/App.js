@@ -30,12 +30,10 @@ const HOME = () => {
 
 const registration_click = () => {
   return (
-    <Router>
     <div>
       <Header />
       <Registration />
     </div>
-    </Router>
   );
 };
 

@@ -6,7 +6,6 @@ class login extends React.Component {
   render() {
     //login or 登録された後にBlogにアクセスできるようにする処理
     return (
-      <Router>
       <form action="">
         <table>
           <tbody>
@@ -24,7 +23,6 @@ class login extends React.Component {
                 </Button>
               
         </form>
-        </Router>
     )
   }
 }
