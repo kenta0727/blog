@@ -10,7 +10,8 @@ class login extends React.Component {
         <table>
           <tbody>
               <tr>
-                <th><TextField id="standard-basic" label="メールアドレス" /></th>
+              <th><TextField id="standard-basic" label="メールアドレス" /></th>
+              <p>aaaa</p>
               </tr>
               <tr>
                 <th><TextField id="standard-basic" label="パスワード" /></th>
