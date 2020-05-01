@@ -23,14 +23,14 @@ const HOME = () => {
       {/* Linkから自動的にlinkされるようになっている */}
       <Header />
       <Link to="/Login">
-      <Button variant="raised">
+      {/* <Button variant="raised"> */}
       ログインする
-      </Button>
+      {/* </Button> */}
         </Link>
       <Link to="/registration">
-      <Button variant="raised">
+      {/* <Button variant="raised"> */}
       初めての方はこちら
-      </Button>
+      {/* </Button> */}
       </Link>
     </div>
   );  
