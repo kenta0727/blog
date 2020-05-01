@@ -3,13 +3,9 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Login from './Login'
 import Header from './Header'
 import Registration from './Registration'
-import Blog from './Blog'
+import Blog from './Blog_display'
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-
 
 
 const styles = {
@@ -75,7 +71,7 @@ const App = () => {
           <Route path="/" exact component={HOME} />
           <Route path="/registration" component={registration_click} />
           <Route path="/login" component={Login_click} />
-          <Route path="/Blog"  component={Blog_login} />
+          <Route path="/Blog_display"  component={Blog_login} />
         </div>
       </BrowserRouter>
     </div>

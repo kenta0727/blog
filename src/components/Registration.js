@@ -7,7 +7,7 @@ class Registration extends React.Component {
     //login or 登録された後にBlogにアクセスできるようにする処理
     return (
       <div>
-        <form action="./Blog">
+        <form action="./Blog_display">
           <table>
             <tbody>
             <tr>
