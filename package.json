@@ -37,7 +37,6 @@
     ],
     "homepage": "."
   },
-  "main": "index.js",
   "repository": "git@github.com:kenta0727/blog.git",
   "author": "kenta <727shimiken727@ezweb.ne.jp>",
   "license": "MIT"

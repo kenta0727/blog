@@ -8,14 +8,6 @@ import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 
 
-const styles = {
-  card: {
-    margin: 48,
-    height: 128
-  },
-};
-
-
 const HOME = () => {
   return (
     //ログイン、会員登録画面
