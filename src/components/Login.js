@@ -6,7 +6,7 @@ class login extends React.Component {
   render() {
     //login or 登録された後にBlogにアクセスできるようにする処理
     return (
-      <form action="Blog_display">
+      <form action="">
         <table>
           <tbody>
               <tr>
