@@ -4,21 +4,37 @@ import Login from './Login'
 import Header from './Header'
 import Registration from './Registration'
 import Blog from './Blog'
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+
+
+
+const styles = {
+  card: {
+    margin: 48,
+    height: 128
+  },
+};
+
 
 const HOME = () => {
   return (
     //ログイン、会員登録画面
     <div>
-       {/* Linkから自動的にlinkされるようになっている */}
+      {/* Linkから自動的にlinkされるようになっている */}
+      <Header />
       <Link to="/Login">
-        <button>
-          ログインする
-        </button>
-      </Link>
+      <Button variant="raised">
+      ログインする
+      </Button>
+        </Link>
       <Link to="/registration">
-        <button>
-          初めての方はこちら
-        </button>
+      <Button variant="raised">
+      初めての方はこちら
+      </Button>
       </Link>
     </div>
   );  
@@ -27,6 +43,7 @@ const HOME = () => {
 const registration_click = () => {
   return (
     <div>
+      <Header />
       <Registration />
     </div>
   );
@@ -44,6 +61,7 @@ const Login_click = () => {
 const Blog_login = () => { 
   return (
     <div>
+      <Header />
       <Blog />
     </div>
   )

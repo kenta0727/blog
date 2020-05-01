@@ -1,23 +1,26 @@
 import React from 'react'
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
 class login extends React.Component { 
   render() {
-    //login　or 登録された後にBlogにアクセスできるようにする処理
+    //login or 登録された後にBlogにアクセスできるようにする処理
     return (
       <form action="/Blog">
         <table>
           <tbody>
-            <tr>
-              <th>メールアドレス</th>
-              <td><input type="text" name="id" id="" /></td>
-            </tr>
-            <tr>
-              <th>パスワード</th>
-              <td><input type="text" name="pass" id="" /></td>
-            </tr>
+              <tr>
+                <th><TextField id="standard-basic" label="メールアドレス" /></th>
+              </tr>
+              <tr>
+                <th><TextField id="standard-basic" label="パスワード" /></th>
+              </tr>
           </tbody>
         </table>
-        <input type="submit" value="ログインする" />
+                <Button variant="contained" color="primary" type="submit" >
+                ログイン
+                </Button>
+              
       </form>
     )
   }
