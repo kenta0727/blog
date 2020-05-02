@@ -7,14 +7,13 @@ class Header extends React.Component {
   render() {
     return (
       <div className='header'>
-        {/* <AppBar position="static" color="inherit">
+        <AppBar position="static" color="inherit">
           <Toolbar>
             <Typography variant="contained" color="primary">
               Kenta Blog
               </Typography>
           </Toolbar>
-        </AppBar> */}
-
+        </AppBar> 
       </div>
     );
   }

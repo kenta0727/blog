@@ -11,19 +11,20 @@ class Registration extends React.Component {
           <table>
             <tbody>
             <tr>
-                <th><TextField id="standard-basic" label="氏名" /></th>
+              <th>氏名</th>
+                <td><TextField id="standard-basic" required/></td>
               </tr>
               <tr>
-                <th><TextField id="standard-basic" label="メールアドレス" /></th>
+              <th>メールアドレス</th>                
+                <td><TextField id="standard-basic" required/></td>
               </tr>
               <tr>
-                <th><TextField id="standard-basic" label="パスワード" /></th>
+                <th>パスワード</th>
+                <td><TextField id="standard-basic" required/></td>
               </tr>
-              <tr>
                 <Button variant="contained" color="secondary" type="submit" >
                 登録する
                 </Button>
-              </tr>
           </tbody>
         </table>
       </form>

@@ -6,16 +6,17 @@ class login extends React.Component {
   render() {
     //login or 登録された後にBlogにアクセスできるようにする処理
     return (
-      <form action="">
+      <form action="./Blog_display">
         <table>
           <tbody>
-              <tr>
-              <th><TextField id="standard-basic" label="メールアドレス" /></th>
-              <p>aaaa</p>
+            <tr>
+              <th>メールアドレス</th>
+              <td><TextField id="standard-basic"/></td>
               </tr>
-              <tr>
-                <th><TextField id="standard-basic" label="パスワード" /></th>
-              </tr>
+            <tr>
+              <th>パスワード</th>
+              <td><TextField id="standard-basic" /></td>
+            </tr>
           </tbody>
         </table>
                 <Button variant="contained" color="primary" type="submit" >
