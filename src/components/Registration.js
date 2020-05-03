@@ -20,7 +20,7 @@ class Registration extends React.Component {
               </tr>
               <tr>
                 <th>パスワード</th>
-                <td><TextField id="standard-basic" required/></td>
+                <td><TextField id="standard-basic" type="password" required/></td>
               </tr>
                 <Button variant="contained" color="secondary" type="submit" >
                 登録する

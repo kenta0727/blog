@@ -10,5 +10,22 @@
             "StackName": "blog-20200430101017",
             "StackId": "arn:aws:cloudformation:us-east-1:842560585177:stack/blog-20200430101017/5a60bb70-8a7f-11ea-9916-0e763951b664"
         }
+    },
+    "api": {
+        "blog": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "securityType": "API_KEY",
+                "GraphQLAPIIdOutput": "wzy76terprbnvnkb36tylqjzku",
+                "GraphQLAPIEndpointOutput": "https://kknjaiugbzbtnfc2upr34v3kwq.appsync-api.us-east-1.amazonaws.com/graphql",
+                "GraphQLAPIKeyOutput": "da2-cabgbpicx5hnbconv7lwy4fhem"
+            },
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/blog-20200430101017-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+                "logicalId": "apiblog"
+            },
+            "lastPushTimeStamp": "2020-05-03T08:37:26.714Z"
+        }
     }
 }

@@ -15,7 +15,7 @@ class login extends React.Component {
               </tr>
             <tr>
               <th>パスワード</th>
-              <td><TextField id="standard-basic" /></td>
+              <td><TextField type="password" id="standard-basic" /></td>
             </tr>
           </tbody>
         </table>
